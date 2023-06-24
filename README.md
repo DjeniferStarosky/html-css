@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e a gerenciar meus repositórios.
 
-<a href="https://djeniferstarosky.github.io/html-css/desafios/d010/android.html"> Executar o desafio 010 - Página Andriod
+<a href="https://djeniferstarosky.github.io/html-css/desafios/d009/index.html"> Executar o desafio 009 - Cursos
