@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Links </title>
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+        # id
+        . class
+        : pseudo-class
+        :: pseudo-element
+        > children
+        */ 
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        a {
+            color: brown;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: blueviolet;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: brown;
+        }
+        a:active {
+            color: aqua;
+        }
+       
+        .especial {
+            background-color: rgba(137, 43, 226, 0.527);
+        }
+
+        .especial::before {
+            content: '↠';
+        }
+
+        a::after {
+            content: '[Link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(160, 99, 99);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/DjeniStarosky" target="_blank">Repositorio GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/djenifer-starosky-96090223a/" target="_blank" class="especial">LinkedIn</a></li>
+        <li><a href="https://www.cursoemvideo.com/minha-conta/" target="_blank">Perfil CursoemVídeo</a></li>
+    </ul>
+
+
+</body>
+</html>

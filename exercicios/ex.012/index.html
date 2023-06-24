@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title> Trabalhando com Vídeos</title>
+</head>
+<body>
+
+    <h1>Trabalhando com Vídeos</h1>
+    <hr>
+    <h2>Videos hospedados localmente</h2>
+    <p>Este vídeo está hospedado no meu proprio servidor. Videos hospedados desta forma podem consumir podem e vão consumir muito trafego de dados.</p>
+
+    <video width="500" poster="imagem/limoes-capa.png" controls>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogv">
+        <p>Seu navegador não possui compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <h2>Videos hospedados externamente, usando serviços de vídeo.</h2>
+    <p>Inserindo vídeos do YouTube: basta copiar o código gerado pelo prórpio youtube na opção Incorporar dentro da ação Compartilhar.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <p>Inserindo vídeos do Vimeo: basta copiar o código gerado pelo prórpio vimeo na opção Incorporação dentro da ação Compartilhar.</p>
+    <iframe src="https://player.vimeo.com/video/51821954?h=9027ddbcdd&color=ff0179&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+   
+    
+</body>
+</html>
